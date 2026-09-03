@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday, My Darling Baby ❤️</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="nav glass">
+  <a class="logo" href="#home">For my girl <span>😘♥️</span></a>
+  <button class="music-btn" id="musicBtn" onclick="toggleMusic()">🎵 Play</button>
+</nav>
+
+<audio id="bgMusic" src="Track.mp3" loop></audio>
+
+<div class="floating" id="floating"></div>
+
+<header class="hero" id="home">
+  <div class="orb one"></div><div class="orb two"></div>
+  <div class="hero-inner reveal">
+    <div class="eyebrow" style="text-align:center;">A little birthday universe made just for you</div>
+    
+    <h1 class="hero-title-custom">
+      wishing a happiest birthday to my <span class="highlight-1">Shrish 🩷💙😘💋</span>
+    </h1>
+
+    <div class="hero-gift-container" style="max-width: 240px; margin: 15px auto;">
+      <div class="photo reveal gift-box-tile blue-gift" style="--r:0deg" onclick="unwrapAndOpenHeroGift(this, '20260903_130902.gif', 'wish you Happiest birthday mayalu 😘💙🩷')">
+        <div class="gift-box-cover blue-cover">
+          <div class="gift-icon">🎁</div>
+          <p class="gift-label">Tap to Unwrap 💌</p>
+        </div>
+        <div class="photo-img"><img src="20260903_130902.gif" alt="Special GIF"></div>
+        <p>wish you Happiest birthday mayalu 😘💙🩷</p>
+      </div>
+    </div>
+
+    <p style="font-size: 0.95rem; margin-top: 10px;">This isn't just another day. It is the day the world become a little more beautiful because you were born. So here is a small gift filled with all the love I wish I could wrapped around you.</p>
+  </div>
+</header>
+
+<section id="letter">
+  <div class="container">
+    <div class="eyebrow" style="text-align:center">Something from my heart</div>
+    <h2 class="section-title reveal">Open My Secret Letter</h2>
+    <div class="envelope glass reveal">
+      <div class="seal">💌</div><div class="type-line" id="typeLine"></div>
+      <button class="btn" onclick="openLetter()">Break The Seal ❤️</button>
+      <div class="letter" id="letterText">
+        <p><strong>Happy Birthday to my beautiful lady, my best friend, my soulmate, my love, 💋💋💖</strong></p>
+        
+        <p>प्रिय पात्र, 😘😘😘<br>
+        तिम्रो जन्मदिनमा, म तिमीलाई संसारको सबै खुशीको कामना गर्दछु। 🤗🫂</p>
+        
+        <p>तिम्रो जीवन तिम्रो हृदयबाट आउने हाँसोले भरिपूर्ण रहोस्, त्यो सुन्दर मुहारमा कहिल्यै दुःखको भाव देख्न नपरोस् 💋💗। सधैं मुहारमा मुस्कान अनि अनुहारमा खुसी देख्न पाइयोस् 😘❤️‍🩹। महादेवले तिम्रा सम्पूर्ण सपनाहरू एक-एक गरी साकार गरिदिउन, जीवन कठिन छ, कठिन भएतापनि जीवन यात्राका क्रममा हुने आरोह-अवरोह, उकाली-ओराली, बाधा-अड्चन सम्पूर्ण समाधान गर्ने शक्ति मिलोस् 🥹💛❤️। आमा-बाबाले छोरीभन्दा गर्व गर्ने छोरी बन्नु। मेरो माया र सकारात्मकताले तिमीलाई सधैं घेरिरहोस्। तिमी यो संसारले प्रदान गर्ने सबै सुन्दरताको हकदार छौ किनभने तिमीले मेरो जीवनमा सुन्दरता ल्याएकी छौ। 💋💋💗</p>
+        
+        <p>आजको दिन शब्दहरूका साँध बाहिर मनाउन लायक छ, किनकि यो त्यो क्षण हो जब संसारमा तिमी जन्मिएकी थियौ। 😁 यो सुन्दर संसारमा तिम्रो आगमन भएको दिन 🥹</p>
+        
+        <p>प्रिय पात्र,<br>
+        तिमी केवल मेरो माया होइनौ, तिमी मेरी एकमात्रै सबैभन्दा मिल्ने साथी हौ, मेरी ठूलो समर्थक हौ। तिमीले मलाई यसरी बुझेकी छौ जसरी सायद कसैले पनि बुझेको छैन होला 🤭🤭। मेरा गुणदोषहरू नभनी तिनलाई सहर्ष स्वीकार गरेका छौ, अनि सधैं मलाई मेरो सर्वोत्तम रूपमा पुग्न हरदम हौसला दिएकी छौ 😘😁। तिमीसँग म सम्पूर्ण रूपमा स्वतन्त्र, सत्य अनि धेरै-धैरै खुसी हुन सक्छु 💛❤️💗। तिम्रो प्रेम, तिम्रो उपस्थिति, तिम्रो मुस्कानले मलाई सधैं खुसी बनाउँछ। 💋😘</p>
+        
+        <p>यो सुन्दर दिनमा I am remembering all the little moments we’ve shared — the late-night talks, 😁😁 the inside jokes that only we understand 😁, the comforting hugs 🙈, and even the quiet silences that speak louder than words. ❤️‍🩹💓 हरेक ती क्षणहरू, स्मृतिका पानामा कोरिएका अविस्मरणिय पलहरू, नबोल्दाका क्षणहरू, घन्टौँ-घण्टा बोलेर नथाकिएका क्षणहरू 🙈💗 सबै कुरा दिमागमा झलझली आइरहेछन्। And today, on your special day, I want to create even more memories, celebrate the beautiful person you are, and let you know how deeply and endlessly you are loved. 💋💋💋💗💗💗</p>
+        
+        <p>म त सधैं तिम्रै साथमा रहिरहने छु, तिम्रो जितमा सधैं विजयउत्सव मनाउन अनि हारमा तिमीसँगै रोइदिन 🥹। संघर्षका दिनहरूमा सधैं तिम्रो साथमा रहने छु 😁💋, तिम्रो हात कहिल्यै छाड्ने छैन 💛😘। म तिमीलाई आज जे छौ त्यसको लागि मात्र होइन, भोलि तिमी बन्ने व्यक्तिको लागि पनि माया गर्नेश्वर। 😁😁 म तिम्रो शक्तिमा रमाउने छु, साथै तिम्रा कमजोरीहरूलाई अँगालिने छु, 🤗💝 र हामीले बाँडेको प्रेमलाई अरू सबै कुराभन्दा बढी कदर गर्नेछु।</p>
+        
+        <p style="font-family:'Playfair Display';font-size:1.3rem;color:var(--ink)">🎂🌹 प्रिय पात्र, फेरि पनि जन्मदिनको शुभकामना!<br>
+        शब्दहरूले व्यक्त गर्न नसकनेभन्दा बढी प्रेम छ तिमीप्रति, आकाशका ताराहरूभन्दा बढी, हाम्रो जीवनका अनन्त क्षणहरूभन्दा बढी। आज, भोलि, र सधैं हरहमेशा 💋💋🌹🎂💖</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="story">
+  <div class="container">
+    <div class="eyebrow" style="text-align:center">The feeling</div>
+    <h2 class="section-title reveal">You Are My Favorite Feeling</h2>
+    <p class="section-sub reveal">Some people arrive in your life and somehow make ordinary moments feel like memories worth keeping forever.</p>
+    <div class="quote reveal"><p>“In a world full of beautiful things, somehow my favorite one is still you.”</p></div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="eyebrow" style="text-align:center">all of things I love</div>
+    <h2 class="section-title reveal">I Love Your</h2>
+    <div class="grid">
+      <div class="card glass reveal"><div class="icon">😊</div><h3>Your Smile</h3><p>I love how your smile can turn the most ordinary moment into something I want to remember.</p></div>
+      <div class="card glass reveal"><div class="icon">💗</div><h3>Your Heart</h3><p>I love the way you care so deeply, and that beautiful softness is one of my favorite things about you.</p></div>
+      <div class="card glass reveal"><div class="icon">🌷</div><h3>Your Presence</h3><p>I love how everything feels a little warmer, calmer, and happier when you're around.</p></div>
+      <div class="card glass reveal"><div class="icon">✨</div><h3>Your Little Things</h3><p>I love your tiny habits, expressions, jokes, and quirks that make you so uniquely you.</p></div>
+      <div class="card glass reveal"><div class="icon">❤️</div><h3>Your Everything</h3><p>I love you simply because you are wonderfully, completely, and beautifully you.</p></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="eyebrow" style="text-align:center">How it always goes</div>
+    <h2 class="section-title reveal">Our Little Conversations 📱</h2>
+    <p class="section-sub reveal">Tap the window to reveal the messages.</p>
+    <div class="chat-window glass reveal" onclick="startChat()">
+      <div class="msg me chat-msg">happy birthday Sanuuuuu 💋😁</div>
+      <div class="msg you chat-msg">Thank you so much mutu 💋💙❣️</div>
+      <div class="msg me chat-msg">I love you more darling ♥️😘</div>
+      <div class="msg you chat-msg">love you more sana 😘💋❣️</div>
+    </div>
+  </div>
+</section>
+
+<section id="memories">
+  <div class="container">
+    <div class="eyebrow" style="text-align:center">Our little gallery</div>
+    <h2 class="section-title reveal">Our Memories</h2>
+    <p class="section-sub reveal">Tap a gift box to unwrap our special memory 🎁</p>
+    <div class="gallery">
+      <div class="photo reveal gift-box-tile" style="--r:-2deg" onclick="unwrapAndOpen(this, 'Us10.jpg', 'Just Getting Introduced at school 😆')">
+        <div class="gift-box-cover">
+          <div class="gift-icon">🎁</div>
+          <p class="gift-label">Tap to Unwrap 💌</p>
+        </div>
+        <div class="photo-img"><img src="Us10.jpg" alt="Just Getting Introduced at school"></div>
+        <p>Just Getting Introduced at school 😆</p>
+      </div>
+      <div class="photo reveal gift-box-tile" style="--r:2deg" onclick="unwrapAndOpen(this, 'Us12.jpg', 'after 2 years,together at college 🤭')">
+        <div class="gift-box-cover">
+          <div class="gift-icon">🎁</div>
+          <p class="gift-label">Tap to Unwrap 💌</p>
+        </div>
+        <div class="photo-img"><img src="Us12.jpg" alt="after 2 years, together at college"></div>
+        <p>after 2 years,together at college 🤭</p>
+      </div>
+      <div class="photo reveal gift-box-tile" style="--r:-1deg" onclick="unwrapAndOpen(this, '20260729_160607.jpg', 'after 1 years together at university 🙈')">
+        <div class="gift-box-cover">
+          <div class="gift-icon">🎁</div>
+          <p class="gift-label">Tap to Unwrap 💌</p>
+        </div>
+        <div class="photo-img"><img src="20260729_160607.jpg" alt="after 1 years together at university"></div>
+        <p>after 1 years together at university 🙈</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="eyebrow" style="text-align:center">Grab some popcorn</div>
+    <h2 class="section-title reveal">Our Mini Movie 🎬</h2>
+    <p class="section-sub reveal">Swipe horizontally to view the chapters of our story. Tap a gift box to unwrap! 🎁</p>
+    <div class="movie-gallery reveal" style="display: flex; gap: 20px; overflow-x: auto; padding-bottom: 20px;">
+      <div class="photo reveal gift-box-tile" style="min-width: 240px; --r:1deg;" onclick="unwrapAndOpen(this, 'Kp.jpg', 'Me in childhood 🙈')">
+        <div class="gift-box-cover"><div class="gift-icon">🎁</div><p class="gift-label">Tap to Unwrap 💌</p></div>
+        <div class="photo-img"><img src="Kp.jpg" alt="Me in childhood"></div>
+        <p>Me in childhood 🙈</p>
+      </div>
+      <div class="photo reveal gift-box-tile" style="min-width: 240px; --r:-1deg;" onclick="unwrapAndOpen(this, 'Ss.jpg', 'You in childhood 😁')">
+        <div class="gift-box-cover"><div class="gift-icon">🎁</div><p class="gift-label">Tap to Unwrap 💌</p></div>
+        <div class="photo-img"><img src="Ss.jpg" alt="You in childhood"></div>
+        <p>You in childhood 😁</p>
+      </div>
+      <div class="photo reveal gift-box-tile" style="min-width: 240px; --r:2deg;" onclick="unwrapAndOpen(this, 'Us10.jpg', 'We at schools 😆')">
+        <div class="gift-box-cover"><div class="gift-icon">🎁</div><p class="gift-label">Tap to Unwrap 💌</p></div>
+        <div class="photo-img"><img src="Us10.jpg" alt="We at schools"></div>
+        <p>We at schools 😆</p>
+      </div>
+      <div class="photo reveal gift-box-tile" style="min-width: 240px; --r:-2deg;" onclick="unwrapAndOpen(this, 'Us12.jpg', 'We at +2 in my farewell 🙈')">
+        <div class="gift-box-cover"><div class="gift-icon">🎁</div><p class="gift-label">Tap to Unwrap 💌</p></div>
+        <div class="photo-img"><img src="Us12.jpg" alt="We at +2 in my farewell"></div>
+        <p>We at +2 in my farewell 🙈</p>
+      </div>
+      <div class="photo reveal gift-box-tile" style="min-width: 240px; --r:1deg;" onclick="unwrapAndOpen(this, 'Love11.jpg', '1st meet after relationship 🫣😁')">
+        <div class="gift-box-cover"><div class="gift-icon">🎁</div><p class="gift-label">Tap to Unwrap 💌</p></div>
+        <div class="photo-img"><img src="Love11.jpg" alt="1st meet after relationship"></div>
+        <p>1st meet after relationship 🫣😁</p>
+      </div>
+      <div class="photo reveal gift-box-tile" style="min-width: 240px; --r:-1deg;" onclick="unwrapAndOpen(this, 'Screenshot_20250401-213949.png', 'Video call 🙈🤭')">
+        <div class="gift-box-cover"><div class="gift-icon">🎁</div><p class="gift-label">Tap to Unwrap 💌</p></div>
+        <div class="photo-img"><img src="Screenshot_20250401-213949.png" alt="Video call"></div>
+        <p>Video call 🙈🤭</p>
+      </div>
+      <div class="photo reveal gift-box-tile" style="min-width: 240px; --r:2deg;" onclick="unwrapAndOpen(this, 'Farewell.jpg', 'in your farewell 😁')">
+        <div class="gift-box-cover"><div class="gift-icon">🎁</div><p class="gift-label">Tap to Unwrap 💌</p></div>
+        <div class="photo-img"><img src="Farewell.jpg" alt="in your farewell"></div>
+        <p>in your farewell 😁</p>
+      </div>
+      <div class="photo reveal gift-box-tile" style="min-width: 240px; --r:-2deg;" onclick="unwrapAndOpen(this, 'Screenshot_20250321-005804.png', 'muted calls😅😁')">
+        <div class="gift-box-cover"><div class="gift-icon">🎁</div><p class="gift-label">Tap to Unwrap 💌</p></div>
+        <div class="photo-img"><img src="Screenshot_20250321-005804.png" alt="muted calls"></div>
+        <p>muted calls😅😁</p>
+      </div>
+      <div class="photo reveal gift-box-tile" style="min-width: 240px; --r:1deg;" onclick="unwrapAndOpen(this, 'IMG_20250528_054636.jpg', 'your training & my campus days 🤭😚')">
+        <div class="gift-box-cover"><div class="gift-icon">🎁</div><p class="gift-label">Tap to Unwrap 💌</p></div>
+        <div class="photo-img"><img src="IMG_20250528_054636.jpg" alt="your training & my campus days"></div>
+        <p>your training & my campus days 🤭😚</p>
+      </div>
+      <div class="photo reveal gift-box-tile" style="min-width: 240px; --r:-1deg;" onclick="unwrapAndOpen(this, 'Screenshot_20260903_105910_Photos.jpg', 'I m very beautiful re 😁🤭')">
+        <div class="gift-box-cover"><div class="gift-icon">🎁</div><p class="gift-label">Tap to Unwrap 💌</p></div>
+        <div class="photo-img"><img src="Screenshot_20260903_105910_Photos.jpg" alt="I m very beautiful re"></div>
+        <p>I m very beautiful re 😁🤭</p>
+      </div>
+      <div class="photo reveal gift-box-tile" style="min-width: 240px; --r:2deg;" onclick="unwrapAndOpen(this, 'IMG_20250705_061707.jpg', 'Somewhere with my chasmiss 🤭🤭')">
+        <div class="gift-box-cover"><div class="gift-icon">🎁</div><p class="gift-label">Tap to Unwrap 💌</p></div>
+        <div class="photo-img"><img src="IMG_20250705_061707.jpg" alt="Somewhere with my chasmiss"></div>
+        <p>Somewhere with my chasmiss 🤭🤭</p>
+      </div>
+      <div class="photo reveal gift-box-tile" style="min-width: 240px; --r:-2deg;" onclick="unwrapAndOpen(this, 'IMG_20250915_074220(1).jpg', 'Your 19th birthday 🎂😁')">
+        <div class="gift-box-cover"><div class="gift-icon">🎁</div><p class="gift-label">Tap to Unwrap 💌</p></div>
+        <div class="photo-img"><img src="IMG_20250915_074220(1).jpg" alt="Your 19th birthday"></div>
+        <p>Your 19th birthday 🎂😁</p>
+      </div>
+      <div class="photo reveal gift-box-tile" style="min-width: 240px; --r:1deg;" onclick="unwrapAndOpen(this, 'IMG-20251024-WA0006.jpg', 'One of My favourite photo💋')">
+        <div class="gift-box-cover"><div class="gift-icon">🎁</div><p class="gift-label">Tap to Unwrap 💌</p></div>
+        <div class="photo-img"><img src="IMG-20251024-WA0006.jpg" alt="One of My favourite photo"></div>
+        <p>One of My favourite photo💋</p>
+      </div>
+      <div class="photo reveal gift-box-tile" style="min-width: 240px; --r:-1deg;" onclick="unwrapAndOpen(this, 'IMG_20251127_152729_1.jpg', 'Haso 🤣')">
+        <div class="gift-box-cover"><div class="gift-icon">🎁</div><p class="gift-label">Tap to Unwrap 💌</p></div>
+        <div class="photo-img"><img src="IMG_20251127_152729_1.jpg" alt="Haso"></div>
+        <p>Haso 🤣</p>
+      </div>
+      <div class="photo reveal gift-box-tile" style="min-width: 240px; --r:2deg;" onclick="unwrapAndOpen(this, '20251203_160637(2).jpg', 'being Her personal Cameraman 🙈')">
+        <div class="gift-box-cover"><div class="gift-icon">🎁</div><p class="gift-label">Tap to Unwrap 💌</p></div>
+        <div class="photo-img"><img src="20251203_160637(2).jpg" alt="being Her personal Cameraman"></div>
+        <p>being Her personal Cameraman 🙈</p>
+      </div>
+      <div class="photo reveal gift-box-tile" style="min-width: 240px; --r:-2deg;" onclick="unwrapAndOpen(this, '20251203_161934.jpg', 'Mayalu najar🫣🤭')">
+        <div class="gift-box-cover"><div class="gift-icon">🎁</div><p class="gift-label">Tap to Unwrap 💌</p></div>
+        <div class="photo-img"><img src="20251203_161934.jpg" alt="Mayalu najar"></div>
+        <p>Mayalu najar🫣🤭</p>
+      </div>
+      <div class="photo reveal gift-box-tile" style="min-width: 240px; --r:1deg;" onclick="unwrapAndOpen(this, '20260208_113758.jpg', 'A chor le momo chori🤭🤭🫣')">
+        <div class="gift-box-cover"><div class="gift-icon">🎁</div><p class="gift-label">Tap to Unwrap 💌</p></div>
+        <div class="photo-img"><img src="20260208_113758.jpg" alt="A chor le momo chori"></div>
+        <p>A chor le momo chori🤭🤭🫣</p>
+      </div>
+      <div class="photo reveal gift-box-tile" style="min-width: 240px; --r:-1deg;" onclick="unwrapAndOpen(this, '20260729_160511.jpg', 'Us Now 😁')">
+        <div class="gift-box-cover"><div class="gift-icon">🎁</div><p class="gift-label">Tap to Unwrap 💌</p></div>
+        <div class="photo-img"><img src="20260729_160511.jpg" alt="Us Now"></div>
+        <p>Us Now 😁</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container text-center" style="text-align:center">
+    <div class="eyebrow">Play together</div>
+    <h2 class="section-title reveal">Our Playroom 🎮</h2>
+    <p class="section-sub reveal">Step inside to choose from our sweet games collection.</p>
+    <button class="btn reveal" onclick="openGamesHubModal()">Open Game Hub 🧩</button>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="eyebrow" style="text-align:center">Our journey</div>
+    <h2 class="section-title reveal">Our Love Timeline 💌</h2>
+    <p class="section-sub reveal">Tap an envelope to read each chapter of our story.</p>
+    <div class="envelope-grid reveal">
+      <div class="env-card glass" onclick="this.classList.add('open'); confettiBurst(15)">
+        <div class="env-seal">💌</div>
+        <div class="eyebrow" style="font-size:0.7rem; margin-bottom:4px;">THE BEGINNING</div>
+        <h3 class="env-title">The Day We First Met</h3>
+        <div class="env-msg">We were just a senior and junior in school, barely knowing each other. We talked only three or four times, never imagining that two years later, those little moments would lead us to something much more beautiful. ❤️</div>
+      </div>
+      <div class="env-card glass" onclick="this.classList.add('open'); confettiBurst(15)">
+        <div class="env-seal">💌</div>
+        <div class="eyebrow" style="font-size:0.7rem; margin-bottom:4px;">THE SPARK</div>
+        <h3 class="env-title">The Hello That Brought Us Back</h3>
+        <div class="env-msg">After two years, life somehow brought us into each other’s paths again. And then, for reasons I still wonder about, you said “hello.” It was just one little word, but maybe that was the universe quietly giving our story its second chance. Once again, we were senior and junior ❤️</div>
+      </div>
+      <div class="env-card glass" onclick="this.classList.add('open'); confettiBurst(15)">
+        <div class="env-seal">💌</div>
+        <div class="eyebrow" style="font-size:0.7rem; margin-bottom:4px;">THE MEMORY</div>
+        <h3 class="env-title">From Friends to Forever</h3>
+        <div class="env-msg">After many months, we finally became friends—and somehow, that friendship slowly became something much more. We became best friends, sharing countless little moments, while secretly falling for each other without saying a word. Until one day, we finally confessed what our hearts had been hiding all along. And just like that, best friends became partners, and our story became ours. ❤️✨</div>
+      </div>
+      <div class="env-card glass" onclick="this.classList.add('open'); confettiBurst(15)">
+        <div class="env-seal">💌</div>
+        <div class="eyebrow" style="font-size:0.7rem; margin-bottom:4px;">THE FUTURE</div>
+        <h3 class="env-title">Everything We Haven’t Lived Yet</h3>
+        <div class="env-msg">Our story is far from over. There are still countless sunsets to watch, places to discover, memories to create, and forever moments waiting for us. 🌙✨</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="eyebrow" style="text-align:center">For every mood</div>
+    <h2 class="section-title reveal">Open This When… 💌</h2>
+    <p class="section-sub reveal">Tap an envelope when you need it most.</p>
+    <div class="envelope-grid reveal">
+      <div class="env-card glass" onclick="this.classList.add('open'); confettiBurst(15)">
+        <div class="env-seal">💌</div>
+        <h3 class="env-title">You miss me</h3>
+        <div class="env-msg">"A little reminder that no matter how far apart we are, my heart is always with you. ❤️"</div>
+      </div>
+      <div class="env-card glass" onclick="this.classList.add('open'); confettiBurst(15)">
+        <div class="env-seal">💌</div>
+        <h3 class="env-title">You're sad</h3>
+        <div class="env-msg">"Let my words be your hug when I can’t be there. Remember, you never have to face a bad day alone. 🫂"</div>
+      </div>
+      <div class="env-card glass" onclick="this.classList.add('open'); confettiBurst(15)">
+        <div class="env-seal">💌</div>
+        <h3 class="env-title">You can't sleep</h3>
+        <div class="env-msg">"Close your eyes, think of me, and imagine us together. Maybe my love can be your sweetest lullaby. ✨"</div>
+      </div>
+      <div class="env-card glass" onclick="this.classList.add('open'); confettiBurst(15)">
+        <div class="env-seal">💌</div>
+        <h3 class="env-title">You're angry with me</h3>
+        <div class="env-msg">"Before you stay mad, remember how much I love you. Let’s choose understanding, a hug, and us over anger. ❤️"</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="eyebrow" style="text-align:center">A tiny game</div>
+    <h2 class="section-title reveal">If You Were… 🌷</h2>
+    <p class="section-sub">Tap a card to reveal what you would be.</p>
+    <div class="if-grid">
+      <div class="if-card glass reveal" onclick="this.classList.toggle('active')">
+        <div class="question"><div class="icon">🌸</div><h3>A Flower?</h3></div>
+        <div class="answer">
+          <img src="Lotus.jpg" alt="Lotus" class="if-img">
+          <p class="answer-title">Lotus</p>
+        </div>
+      </div>
+      <div class="if-card glass reveal" onclick="this.classList.toggle('active')">
+        <div class="question"><div class="icon">🐰</div><h3>An Animal?</h3></div>
+        <div class="answer">
+          <img src="Rabbit.jpg" alt="Rabbit" class="if-img">
+          <p class="answer-title">Rabbit</p>
+        </div>
+      </div>
+      <div class="if-card glass reveal" onclick="this.classList.toggle('active')">
+        <div class="question"><div class="icon">🦢</div><h3>A Bird?</h3></div>
+        <div class="answer">
+          <img src="Swan.jpg" alt="Swan" class="if-img">
+          <p class="answer-title">Swan</p>
+        </div>
+      </div>
+      <div class="if-card glass reveal" onclick="this.classList.toggle('active')">
+        <div class="question"><div class="icon">🍎</div><h3>A Fruit?</h3></div>
+        <div class="answer">
+          <img src="Pomegranate.jpg" alt="Pomegranate" class="if-img">
+          <p class="answer-title">Pomegranate</p>
+        </div>
+      </div>
+      <div class="if-card glass reveal" onclick="this.classList.toggle('active')">
+        <div class="question"><div class="icon">🥟</div><h3>A Food?</h3></div>
+        <div class="answer">
+          <img src="momo.jpg" alt="Momo" class="if-img">
+          <p class="answer-title">Momo</p>
+        </div>
+      </div>
+      <div class="if-card glass reveal" onclick="this.classList.toggle('active')">
+        <div class="question"><div class="icon">🏔️</div><h3>A Place?</h3></div>
+        <div class="answer">
+          <img src="Kathmandu.jpg" alt="Kathmandu valley" class="if-img">
+          <p class="answer-title">Kathmandu valley</p>
+        </div>
+      </div>
+      <div class="if-card glass reveal" onclick="this.classList.toggle('active')">
+        <div class="question"><div class="icon">🐭</div><h3>A Cartoon Character?</h3></div>
+        <div class="answer">
+          <img src="Jerry.jpg" alt="Jerry" class="if-img">
+          <p class="answer-title">Jerry</p>
+        </div>
+      </div>
+      <div class="if-card glass reveal" onclick="this.classList.toggle('active')">
+        <div class="question"><div class="icon">🎬</div><h3>A Movie Character?</h3></div>
+        <div class="answer">
+          <img src="Geet.jpg" alt="Geet" class="if-img">
+          <p class="answer-title">Geet</p>
+        </div>
+      </div>
+      <div class="if-card glass reveal" onclick="this.classList.toggle('active')">
+        <div class="question"><div class="icon">🎶</div><h3>A Song?</h3></div>
+        <div class="answer">
+          <img src="Song.jpg" alt="Gazalu Ti Thula Thula Aakha" class="if-img">
+          <p class="answer-title">Gazalu Ti Thula Thula Aakha</p>
+        </div>
+      </div>
+      <div class="if-card glass reveal" onclick="this.classList.toggle('active')">
+        <div class="question"><div class="icon">🌙</div><h3>In Nature?</h3></div>
+        <div class="answer">
+          <img src="moon.jpg" alt="Moon" class="if-img">
+          <p class="answer-title">Moon</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="eyebrow" style="text-align:center">Things I want to do with you</div>
+    <h2 class="section-title reveal">Our Wishlist 💖</h2>
+    <p class="section-sub reveal">Tap to check off all the sweet dreams we're going to share together.</p>
+    <div class="bucket-list reveal">
+      <div class="bucket-item glass" onclick="toggleBucket(this)"><div class="checkbox"></div><span>Watch the sunrise together with warm coffee 🌅☕</span></div>
+      <div class="bucket-item glass" onclick="toggleBucket(this)"><div class="checkbox"></div><span>Travel somewhere brand new and get lost together ✈️🗺️</span></div>
+      <div class="bucket-item glass" onclick="toggleBucket(this)"><div class="checkbox"></div><span>Cook a delicious home meal together from scratch 🍝🍕</span></div>
+      <div class="bucket-item glass" onclick="toggleBucket(this)"><div class="checkbox"></div><span>Go stargazing on a quiet night away from the city 🌌✨</span></div>
+      <div class="bucket-item glass" onclick="toggleBucket(this)"><div class="checkbox"></div><span>Have a cozy outdoor picnic in a sunny park 🧺🌷</span></div>
+      <div class="bucket-item glass" onclick="toggleBucket(this)"><div class="checkbox"></div><span>Take a peaceful walk in the rain sharing one umbrella 🌧️☂️</span></div>
+      <div class="bucket-item glass" onclick="toggleBucket(this)"><div class="checkbox"></div><span>Go on a long scenic road trip playing our favorite playlist 🚗🎶</span></div>
+      <div class="bucket-item glass" onclick="toggleBucket(this)"><div class="checkbox"></div><span>Bake a cute birthday cake or sweet treats together 🎂🧁</span></div>
+      <div class="bucket-item glass" onclick="toggleBucket(this)"><div class="checkbox"></div><span>Take 100 silly polaroid photos and make a collage 📸🤍</span></div>
+      <div class="bucket-item glass" onclick="toggleBucket(this)"><div class="checkbox"></div><span>Write love letters to seal and open on a future anniversary ✉️🔒</span></div>
+      <div class="bucket-item glass" onclick="toggleBucket(this)"><div class="checkbox"></div><span>Spend a rainy afternoon reading or watching movie series under soft blankets 🍿🕯️</span></div>
+      <div class="bucket-item glass" onclick="toggleBucket(this)"><div class="checkbox"></div><span>Hold hands and explore bustling street markets 🛍️🤝</span></div>
+      <div class="bucket-item glass" onclick="toggleBucket(this)"><div class="checkbox"></div><span>Grow old, stay foolish, and love each other forever ❤️🥹</span></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="eyebrow" style="text-align:center">A completely scientific measurement</div>
+    <h2 class="section-title reveal">How Much Do I Love You?</h2>
+    <div class="reasons-box glass reveal">
+      <div class="meter"><span id="loveBar"></span></div>
+      <div class="meter-text" id="loveText">Click the button to find out…</div>
+      <button class="btn" onclick="loveMeter()">Measure My Love ❤️</button>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="gift-area reveal">
+      <div class="eyebrow">A birthday surprise</div>
+      <h2 class="section-title">There's A Gift Waiting For You 🎁</h2>
+      <p class="section-sub">Go on… tap it.</p>
+      <div class="gift" onclick="openGift()">🎁</div>
+      <div class="gift-message glass" id="giftMessage" style="display:none;">
+        <p style="margin-bottom: 20px; font-weight: 600; color: #d90429;">My gift to you is all the love I have, today and always. You deserve the world — and I'll spend forever cheering you toward it. 💗</p>
+        
+        <div style="display: flex; flex-direction: column; gap: 20px;">
+          <div>
+            <p style="font-family:'Playfair Display'; margin-bottom: 8px; font-weight: 600; color: var(--ink);">our favorite video</p>
+            <video controls style="width: 100%; max-height: 350px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+              <source src="Love6.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div>
+            <p style="font-family:'Playfair Display'; margin-bottom: 8px; font-weight: 600; color: var(--ink);">duet tiktok</p>
+            <video controls style="width: 100%; max-height: 350px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+              <source src="Dute.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div>
+            <p style="font-family:'Playfair Display'; margin-bottom: 8px; font-weight: 600; color: var(--ink);">beautiful time 🙈</p>
+            <video controls style="width: 100%; max-height: 350px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+              <source src="Tiktok.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="padding-bottom:120px">
+  <div class="container reveal text-center" style="text-align:center">
+    <div class="eyebrow">For your eyes only</div>
+    <h2 class="section-title">Unlock The Secret Room 🔐</h2>
+    <p class="section-sub">There is something hidden here that only you can see.</p>
+    <button class="btn" onclick="openSecretRoom()">Enter Password</button>
+  </div>
+</section>
+
+<section id="surprise" class="closing">
+  <div class="reveal">
+    <div class="heart-big">❤️</div>
+    <div class="eyebrow">From the bottom of my heart</div>
+    <h2>Thank You For Being<br>With Me</h2>
+    <p class="section-sub" style="color: #ffccd5; max-width: 600px; margin: 0 auto; line-height: 1.8;">Having you by my side is the greatest blessing of my life. Thank you for your endless love, your patience, and for making every single day brighter just by being you. once again very very happy birthday sanuuu😘.I love you today, tomorrow ,each and every day ,each and every moment 💋🩷💙</p>
+  </div>
+</section>
+
+<footer>Made with ridiculous amounts of love for the birthday girl/boy of my heart. ❤️</footer>
+
+<div class="modal" id="gamesHubModal" onclick="if(event.target===this)closeGamesHubModal()">
+  <div class="modal-box games-modal-box">
+    <button class="modal-close" onclick="closeGamesHubModal()">×</button>
+    <div id="gameHubMenuView">
+      <div class="eyebrow">Interactive Playroom</div>
+      <h2 style="font-family:'Playfair Display'; margin-bottom: 5px;">Choose a Game</h2>
+      <p style="color: var(--muted); font-size: 0.9rem; margin-bottom: 20px;">Pick a challenge below to play together!</p>
+      
+      <div style="display: flex; flex-direction: column; gap: 12px;">
+        <button class="btn" onclick="launchGame('match')">🧩 Love Memory Match</button>
+        <button class="btn alt" onclick="launchGame('vsGame')">💙 You VS Me 🩷 (50 Qs)</button>
+        <button class="btn" style="background: linear-gradient(135deg, #ffb3c1, #90e0ef); color: var(--ink);" onclick="launchGame('truthDare')">🎭 Truth or Dare 🌸</button>
+      </div>
+    </div>
+
+    <div id="matchGameView" style="display:none;">
+      <button style="background:none; border:none; color:var(--muted); cursor:pointer; float:left; font-weight:600;" onclick="backToGameHub()">← Back to Games</button>
+      <div style="clear:both;"></div>
+      <div class="eyebrow" style="margin-top:5px;">A Sweet Matching Challenge</div>
+      <h2 style="font-family:'Playfair Display'; margin-bottom: 5px; font-size: 1.4rem;">Love Memory Match</h2>
+      <p style="color: var(--muted); font-size: 0.85rem; margin-bottom: 10px;">Find all matching pairs of our favorite things!</p>
+      
+      <div id="matchGameContainer">
+        <div style="font-weight: 600; margin-bottom: 8px; color: var(--ink); font-size: 0.9rem;">Moves: <span id="matchMoves">0</span></div>
+        <div class="memory-grid" id="memoryGrid"></div>
+      </div>
+      
+      <div id="matchWinMessage" style="display:none; margin-top: 10px;">
+        <p style="font-size: 1rem; font-weight: 600; color: #d90429; font-family: 'Playfair Display', serif;" id="winText">🎉 You won! You're amazing! ❤️</p>
+        <button class="btn" style="margin-top: 5px; padding: 8px 20px; font-size: 0.9rem;" onclick="resetMemoryMatch()">Play Again ✨</button>
+      </div>
+    </div>
+
+    <div id="vsGameView" style="display:none;">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 5px;">
+        <button style="background:none; border:none; color:var(--muted); cursor:pointer; font-weight:600; padding:0;" onclick="backToGameHub()">← Back to Games</button>
+        <span id="vsProgressIndicator" style="font-size: 0.85rem; font-weight: 600; color: #d90429;">Question 1 of 50</span>
+      </div>
+      <div class="eyebrow" style="margin-top:5px;">You 💙 VS Me 🩷</div>
+      <h2 style="font-family:'Playfair Display'; margin-bottom: 10px; font-size: 1.3rem;">Our Playful Choices ✨</h2>
+      
+      <div id="vsCardContainer" class="vs-card-container">
+        <div id="vsQuestion" style="font-weight:600; margin-bottom:15px; font-size:1.05rem; color:var(--ink); line-height: 1.5; text-align: center;">Question text</div>
+        <div id="vsOptions" style="display:flex; flex-direction:column; gap:12px;"></div>
+      </div>
+      
+      <div id="vsResultContainer" style="display:none; text-align:center; padding: 20px 10px;">
+        <div style="font-size: 3rem; margin-bottom: 10px;">🥰💖</div>
+        <p style="font-family:'Playfair Display'; font-size:1.2rem; font-weight:600; color:#d90429; margin-bottom:15px;">You've completed all choices! No matter who wins, we're always on the same team! ❤️</p>
+        <button class="btn" onclick="restartVsGame()">Play Again 💖</button>
+      </div>
+    </div>
+
+    <div id="truthDareGameView" style="display:none;">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 5px;">
+        <button style="background:none; border:none; color:var(--muted); cursor:pointer; font-weight:600; padding:0;" onclick="backToGameHub()">← Back to Games</button>
+        <span id="tdRoundIndicator" style="font-size: 0.85rem; font-weight: 600; color: #d90429;">Round 1 of 5 (Turn 1/5)</span>
+      </div>
+      <div class="eyebrow" style="margin-top:5px;">Interactive Truth & Dare</div>
+      <h2 style="font-family:'Playfair Display'; margin-bottom: 10px; font-size: 1.3rem;">Choose Your Path ✨</h2>
+      
+      <div id="tdChoiceContainer">
+        <p style="font-weight:600; margin-bottom:15px; font-size:1.05rem; color:var(--ink); text-align: center;">What do you choose for this turn?</p>
+        <div style="display:flex; gap:15px; justify-content:center; margin-bottom: 15px;">
+          <button class="td-choice-btn truth-btn" onclick="chooseTruthOrDare('truth')">💗 Truth</button>
+          <button class="td-choice-btn dare-btn" onclick="chooseTruthOrDare('dare')">🔥 Dare</button>
+        </div>
+      </div>
+
+      <div id="tdQuestionContainer" style="display:none;" class="vs-card-container">
+        <div id="tdBadge" style="font-weight:700; font-size:0.85rem; text-transform:uppercase; margin-bottom:8px; color:#d90429;">Truth</div>
+        <div id="tdQuestionText" style="font-weight:600; margin-bottom:15px; font-size:1.05rem; color:var(--ink); line-height: 1.5; text-align: center;">Question text</div>
+        
+        <div style="margin-bottom: 12px;">
+          <textarea id="tdAnswerInput" class="secret-input" style="height: 80px; resize: none; text-align: left; padding: 10px;" placeholder="Type your answer here..."></textarea>
+          <p style="font-size:0.75rem; color:var(--muted); margin-top:-10px; margin-bottom:10px; text-align:center;">💡 Note: If your answer is a picture, video, or voice note, please send it to me on WhatsApp! 💬</p>
+        </div>
+        <button class="btn" style="width:100%;" onclick="submitTdAnswer()">Submit Answer ✨</button>
+      </div>
+
+      <div id="tdRoundSummaryContainer" style="display:none; text-align:center; padding: 10px 0;">
+        <h3 style="font-family:'Playfair Display'; font-size:1.2rem; color:#d90429; margin-bottom:10px;" id="tdSummaryTitle">Round 1 Complete! 🌸</h3>
+        <div id="tdSummaryList" style="text-align:left; max-height: 220px; overflow-y: auto; margin-bottom: 15px; display:flex; flex-direction:column; gap:10px;"></div>
+        <button class="btn" id="tdNextRoundBtn" onclick="startNextTdRound()">Start Next Round 🚀</button>
+      </div>
+
+      <div id="tdGameOverContainer" style="display:none; text-align:center; padding: 20px 10px;">
+        <div style="font-size: 3rem; margin-bottom: 10px;">🎉💖</div>
+        <h3 style="font-family:'Playfair Display'; font-size:1.3rem; font-weight:600; color:#d90429; margin-bottom:10px;">Thank You For Playing!</h3>
+        <p style="color: var(--muted); font-size: 0.9rem; margin-bottom: 20px;">You've completed all 5 rounds of Truth & Dare! Every answer made me smile so much. ❤️</p>
+        <button class="btn" onclick="restartTruthDareGame()">Play Game Again 💖</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal" id="modal" onclick="if(event.target===this)closeModal()">
+  <div class="modal-box"><button class="modal-close" onclick="closeModal()">×</button><div class="modal-art" id="modalArt">🌸</div><h2 id="modalTitle" style="font-family:'Playfair Display';padding:0 12px 12px"></h2></div>
+</div>
+
+<div class="final-surprise" id="finalSurprise">
+  <div class="final-content">
+    <div style="font-size:4rem">🎈💗✨🎂✨💗🎈</div>
+    <h2>I Love You<br>More Than Words.</h2>
+    <p>Happy Birthday, My Darling Baby ❤️</p>
+    <button class="close-final" onclick="closeFinal()">Come Back To Earth ☺️</button>
+  </div>
+</div>
+
+<div class="secret-modal" id="secretModal">
+  <div class="secret-content">
+    <h2 style="font-family:'Playfair Display'; margin-top:0">Enter the Secret Password 🔐</h2>
+    <input type="password" id="secretPwd" class="secret-input" placeholder="Password...">
+    <button class="btn" onclick="checkPassword()">Unlock ❤️</button>
+    <button class="btn alt" style="border:1px solid var(--muted); margin-left:10px" onclick="closeSecretRoom()">Close</button>
+    <p id="secretError" style="color:red; display:none; margin-top:15px; font-weight:bold">Incorrect password!</p>
+    
+    <div id="secretReveal" style="display:none; margin-top:20px; padding:25px; background:var(--pink2); border-radius:16px; border:2px dashed var(--rose); text-align: center;">
+      <p style="font-weight: 600; font-size: 1.1rem; color: #d90429; margin-bottom: 15px; font-family: 'Playfair Display', serif;">A special creation dedicating you ♥️</p>
+      
+      <div style="margin-bottom: 15px;">
+        <img src="Rays.png" alt="Rays of Pearl" style="width: 100%; max-height: 350px; object-fit: contain; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+      </div>
+      
+      <h3 style="font-family:'Playfair Display'; margin: 15px 0 8px 0; color: var(--ink); font-size: 1.5rem;">Rays of Pearl</h3>
+      <p style="color:var(--ink); line-height:1.6; font-size: 0.95rem; margin: 0;">Within these pages, you will find a heartfelt collection of poetic expressions—featuring poems, shayaris, ghazal and a mini novel, a story straight from my heart. Each line is a reflection of the endless beauty of life,love,sorrow,happiness and sucess.</p>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
